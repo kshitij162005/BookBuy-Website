@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.outerContainer {
+    background-color: #00ADB5;
+    /* border: 2px solid black; */
+    width: 100vw;
+    height: auto;
+}
+
+.navBar{
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-between;
+    background-color: #393E46;
+    color: #EEEEEE;
+}
+
+.kalviumBook {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kalviumBook img{
+    width: 50px;
+    height: 50px;
+    padding-right: 5px;
+}
+
+.searchBar{
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchBar input{
+    width: 500px;
+    height: 32px;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 20px;
+    color: #017177;
+    font-family: 'Times New Roman', Times, serif;
+    border: 5px solid #007c82;
+    outline: none;
+}
+
+
+.register{
+    /* border: 2px solid pink; */
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.registerButton{
+    width: 160px;
+    height: 40px;
+    background-color: Red;
+    color: #EEEEEE;
+    border: 2px solid #EEEEEE;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+.registerButton:hover{
+    background-color: rgb(145, 0, 0);
+    color: white;
+    border: 2px solid #80f9ff;
+    transform: scale(0.96);
+    border-radius: 20px;
+}
+
+/* Existing styles */
+
+.bookShelf {
+    padding: 50px;
+  }
+  
+  .BookList {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Book {
+    width: 280px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #393E46;
+    color: #EEEEEE;
+    border: 5px solid greenyellow;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .Book:hover {
+    background-color: rgb(7, 77, 3);
+    cursor: pointer;
+  }
+  
+  .name{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    margin-top: 9px;
+    
+  }
