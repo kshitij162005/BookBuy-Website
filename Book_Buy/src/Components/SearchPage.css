@@ -79,8 +79,6 @@
     border-radius: 20px;
 }
 
-/* Existing styles */
-
 .bookShelf {
     padding: 50px;
   }
@@ -118,5 +116,5 @@
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
     margin-top: 9px;
-    
+    padding-top: 1px;
   }
