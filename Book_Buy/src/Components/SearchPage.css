@@ -18,11 +18,8 @@
     color: #EEEEEE;
 }
 
-.kalviumBook {
-    /* border: 2px solid red; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.kalviumBook h1{
+    padding: 10px;
 }
 
 .kalviumBook img{

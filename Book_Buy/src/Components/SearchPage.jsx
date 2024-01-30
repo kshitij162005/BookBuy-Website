@@ -41,7 +41,7 @@ const SearchPage = () => {
     <div className="outerContainer">
       <div className="navBar">
         <div className="kalviumBook">
-          <img src="../src/Elements/kalvium.png" alt="" />
+          {/* <img src="../src/Elements/kalvium.png" alt="" /> */}
           <h1>Kalvium Books</h1>
         </div>
         <div className="searchBar">
